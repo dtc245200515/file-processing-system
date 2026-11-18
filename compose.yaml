@@ -1,0 +1,12 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: src/FileProcessing.Api/Dockerfile
+    ports:
+      - "5050:8080"
+    volumes:
+      - ./uploads:/app/uploads
+      - ./data:/app/data
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development

@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/FileProcessing.Api/FileProcessing.Api.csproj" />
+    <Project Path="src/FileProcessing.Shared/FileProcessing.Shared.csproj" />
+    <Project Path="src/FileProcessing.Worker/FileProcessing.Worker.csproj" />
+  </Folder>
+</Solution>
